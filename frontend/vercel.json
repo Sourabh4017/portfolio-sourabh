@@ -1,17 +1,7 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
-    }
-  ],
+  "builds": [{ "src": "vite.config.js", "use": "@vercel/static-build", "config": { "distDir": "dist" } }],
   "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
-  ],
-  "env": {
-    "VITE_API_BASE": "https://portfolio-backend-49ut.onrender.com"
-  }
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/" }
+  ]
 }
-
