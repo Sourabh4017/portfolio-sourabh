@@ -4,14 +4,17 @@ export default function About(){
   return (
     <section>
       <h1 className="text-4xl font-bold mb-4">Hi, I'm Sourabh Mehra!</h1>
-      <p className="mb-4"> Seeking a Software Developer role where I can apply my strong coding skills to build
+      <p className="mb-4 font-bold"> Seeking a Software Developer role where I can apply my strong coding skills to build
  impactful software solutions, continuously learn emerging technologies, and contribute to
  the company's success through smart and efficient development practices. , I have worked
  on full stack development related projects and I also do Ul design.</p>
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <h2 className="text-2xl font-semibold mb-2">About Me</h2>
-          <p>Write a paragraph about your background, education, and interests. Keep it concise and friendly.</p>
+          <h2 className="text-4xl font-semibold mb-2">About Me</h2>
+          <p>I am a student and open to work,<br />
+            <b>Education</b> - B.Tech in Computer Science & Engineering,<br />
+            <b>College</b> - Bansal institute of research technology and science, Bhopal. <br />
+        </p>
         </div>
         <div>
           <h2 className="text-2xl font-semibold mb-2">Quick Info</h2>

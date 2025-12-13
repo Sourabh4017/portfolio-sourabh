@@ -2,8 +2,8 @@ import React from 'react';
 import ProjectCard from './ProjectCard';
 
 const PROJECTS = [
-  { id:1, title:'Project One', desc:'A cool MERN app', tags:['React','Node','MongoDB'], demo:'#', repo:'#' },
-  { id:2, title:'Project Two', desc:'Another project', tags:['React','API'], demo:'#', repo:'#' }
+  { id:1, title:'Wanderlust', desc:'Wanderlust is a dynamic full-stack web application that allows users to explore, create and manage travel destination listings  Inspired bytravel platforms like Airbnb, this project demonstrates CRUD operations, formvalidations, database integration, and relational data handling.', tags:['React', 'JavaScript','Node','MongoDB', 'Bootstrap', 'Express', 'CSS', 'ejs'], demo:'https://wanderlust-project-yu4j.onrender.com/listings', repo:'#' },
+  { id:2, title:'Cafe Nippon', desc:'User & Admin Authentication, Order Placement System, Admin Dashboard, Dynamic Menu Management, Order Status Tracker, Order Status Tracker', tags:['React','API', 'CSS', 'JavaScript', 'Node.js', 'Express', 'MongoDB','REST API', 'JWT Auth'], demo:'#', repo:'#' }
 ];
 
 export default function Projects(){

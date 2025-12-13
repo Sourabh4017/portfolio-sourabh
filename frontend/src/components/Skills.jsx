@@ -3,10 +3,18 @@ import React from 'react';
 const skills = [
   { name: 'JavaScript', level: 'Advanced' },
   { name: 'React', level: 'Advanced' },
-  { name: 'Node.js', level: 'Intermediate' },
+  { name: 'Node.js', level: 'Advanced' },
   { name: 'MongoDB', level: 'Intermediate' },
-  { name: 'Tailwind CSS', level: 'Intermediate' }
+  { name: 'Tailwind CSS', level: 'Intermediate' },
+  { name: 'Java', level: 'Intermediate' },
+  { name: 'HTML', level: 'Advanced' },
+  { name: 'CSS', level: 'Advanced' },
+  { name: 'Express.js', level: 'Advanced' },
+  { name: 'Git', level: 'Intermediate' },
+  { name: 'MySQL', level: 'Intermediate' }
+
 ];
+
 
 export default function Skills(){
   return (
@@ -23,3 +31,4 @@ export default function Skills(){
     </section>
   );
 }
+
