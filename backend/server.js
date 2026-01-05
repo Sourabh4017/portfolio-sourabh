@@ -84,7 +84,8 @@ app.use(cors({
   origin: [
     "http://localhost:5173",           // local frontend
     "http://localhost:3000",
-    "https://portfolio-sourabh.onrender.com" // 👉 replace with your real Vercel URL
+    "https://portfolio-sourabh-lilac.vercel.app"
+    // "https://portfolio-sourabh.onrender.com" // 👉 replace with your real Vercel URL
   ],
   methods: ["GET", "POST"],
   credentials: true
